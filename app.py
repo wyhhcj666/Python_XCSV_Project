@@ -4,7 +4,7 @@ from xcsv.csv_util import CSVUtil
 
 if __name__ == '__main__':
     csv_util = CSVUtil()
-    csv_util.open(filename="xcsv/assets/2017_m_c.csv")
+    csv_util.open(filename="/assets/2017_m_c.csv")
     csv_header = csv_util.read_header()
     # row_1 = csv_util.read()
     # row_2 = csv_util.read()
